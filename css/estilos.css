@@ -108,6 +108,7 @@ header .textos-header{
     display: flex;
     justify-content: center;
     text-align: center;
+  padding: 1rem 1rem;
 }
 
 /* ABOUT US*/
