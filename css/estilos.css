@@ -103,8 +103,8 @@ header .textos-header{
 /*PORTADA-IMG*/
 
 .portada-img{
-    width: 100px;
-    height: 70px;
+    width: 120px;
+    height: 90px;
     display: flex;
     justify-content: center;
     text-align: center;
