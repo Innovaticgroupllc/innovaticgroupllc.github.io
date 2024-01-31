@@ -105,7 +105,6 @@ header .textos-header{
 .portada-img{
     width: 100px;
     height: 70px;
-    margin: .5rem .3rem;
     display: flex;
     justify-content: center;
     text-align: center;
