@@ -286,6 +286,11 @@ footer{
     overflow: hidden;
 }
 
+.footertitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
 .contenedor-footer{
     display: flex;
     width: 90%;
