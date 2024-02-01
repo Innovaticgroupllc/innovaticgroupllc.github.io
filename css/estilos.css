@@ -423,6 +423,11 @@ footer{
         border: none;
     }
 
+    .a-footer{
+      text-decoration: none;
+      color: #fff;
+    }
+
     .content-foo{
         margin-bottom: 20px;
         text-align: center;
@@ -430,11 +435,6 @@ footer{
 
     .content-foo h4{
         border: none;
-    }
-
-    .a-footer{
-      color: #fff;
-      text-decoration: none;
     }
 
     .titulo-final{
