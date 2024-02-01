@@ -463,25 +463,75 @@ header .textos-header{
 
         /* Footer */
 
-    .contenedor-footer{
-        flex-direction: column;
-        border: none;
-    }
+    .footer {
+  position: relative;
+  overflow: hidden;
+}
 
-    .content-foo{
-        margin-bottom: 20px;
-        text-align: center;
-    }
+.footercontainer {
+  row-gap: 2.5rem;
+}
 
-    .content-foo h4{
-        border: none;
-    }
+.footerL {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
 
-    .content-foo p{
-        color: #ccc;
-        border-bottom: 1px solid #f2f2f2;
-        padding-bottom: 20px;
-    }
+.footerL-img {
+  width: 20px;
+}
+
+.footerdescription {
+  margin-bottom: 2.5rem;
+}
+
+.footersocial {
+  display: flex;
+  column-gap: 0.65rem;
+}
+
+.footersocial-link {
+  display: inline-flex;
+  background: #000c32;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.footersocial-link:hover {
+  background: #0557fc;
+}
+
+.footertitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footerlinks {
+  display: grid;
+  row-gap: 0.37rem;
+}
+
+.footerlink {
+  font-size: 0.813rem;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.footerlink:hover {
+  color: #fff;
+}
+
+.footercopy {
+  display: block;
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 4.5rem;
 
     .titulo-final{
         font-size: 20px;
